@@ -15,3 +15,5 @@
 - Player having the bigger card value (in number) will win that particular round.
 - Keep on playing until the remaining cards go down to 0
 - In the end, the player winning more rounds will win the game.
+
+[Live Demo](https://fahad-masood.github.io/aazma-luck-aazma)
