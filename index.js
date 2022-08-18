@@ -42,9 +42,9 @@ function drawCards() {
       if (data.remaining === 0) {
         drawCardBtn.disabled = true;
         if (count1 > count2) {
-          header.textContent = "Player 1 won the game!";
+          header.textContent = "You won the game!";
         } else if (count2 > count1) {
-          header.textContent = "Player 2 won the game!";
+          header.textContent = "You lost the game!";
         } else {
           header.textContent = "It's a tie!";
         }
@@ -74,11 +74,11 @@ function determineCardWinner(card1, card2) {
   if (card1ValueIndex > card2ValueIndex) {
     count1++;
     player1Score.textContent = `${count1}`;
-    return "Player 1 wins!";
+    return "You win!";
   } else if (card1ValueIndex < card2ValueIndex) {
     count2++;
     player2Score.textContent = `${count2}`;
-    return "Player 2 wins!";
+    return "Computer wins!";
   } else {
     return "It's a WAR!";
   }
