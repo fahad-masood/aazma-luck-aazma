@@ -3,7 +3,7 @@
 - Aazma Luck Aazma is a game of cards and luck
 - This game is made using HTML, CSS and Javascript
 - Cards are fetched using Deck Of Cards API
-- This game is responsive for all the screens
+- This game is responsive to all screen sizes
 
 ## How to Play
 
